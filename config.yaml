@@ -5,8 +5,8 @@ params:
   layout_style: default
   palette: orange
   header:
-    title: Stackbit Fresh
-    tagline: Header Tagline
+    title: Klan Zephyra
+    tagline: ''
     profile_img: "/images/erb2.png"
     bg: dark
     has_nav: true
