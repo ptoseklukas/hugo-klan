@@ -2,7 +2,6 @@
 canonical_url = ""
 content_img_path = ""
 date = 2020-05-05T22:00:00Z
-draft = true
 excerpt = ""
 layout = "post"
 subtitle = "Klan Zephyra- 1.díl"
