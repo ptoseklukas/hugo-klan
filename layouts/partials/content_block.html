@@ -2,7 +2,7 @@
   <h2 class="block-title underline">{{ .section.title }}</h2>
   {{ if .section.image }}
   <div class="block-thumbnail">
-    <img src="{{ .section.image | relURL }}" alt="{{ .section.title }}" />
+    <img src="{{ .section.image | relURL }}" alt="{{ .section.title }}" loading="lazy" />
   </div>
   {{ end }}
   <div class="block-content">

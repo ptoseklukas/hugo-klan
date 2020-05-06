@@ -21,3 +21,10 @@ disableKinds:
 - RSS
 - taxonomy
 - taxonomyTerm
+outputs:
+  home:
+    - HTML
+    - AMP
+  page:
+    - HTML
+    - AMP

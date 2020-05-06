@@ -7,7 +7,7 @@
       <div class="post-inside">
         {{ if $post.Params.thumb_img_path }}
         <a class="post-thumbnail" href="{{ $post.URL }}">
-          <img class="thumbnail" src="{{ $post.Params.thumb_img_path | relURL }}" alt="{{ $post.Params.title }}" />
+          <img class="thumbnail" src="{{ $post.Params.thumb_img_path | relURL }}" alt="{{ $post.Params.title }}" loading="lazy" />
         </a>
         {{ end }}
         <header class="post-header">

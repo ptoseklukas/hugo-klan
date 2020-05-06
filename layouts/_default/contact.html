@@ -11,7 +11,7 @@
   {{ end }}
   {{ if .Params.img_path }}
   <div class="post-thumbnail">
-    <img src="{{ .Params.img_path | relURL }}" alt="{{ .Params.title }}" />
+    <img src="{{ .Params.img_path | relURL }}" alt="{{ .Params.title }}" loading="lazy" />
   </div><!-- .post-thumbnail -->
   {{ end }}
   <div class="post-content">
