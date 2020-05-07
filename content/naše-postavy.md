@@ -1,5 +1,4 @@
 +++
-draft = true
 img_path = ""
 layout = "page"
 subtitle = "Seznámení s našimi postavami "
