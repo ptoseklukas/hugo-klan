@@ -3,6 +3,8 @@ img_path = ""
 layout = "page"
 subtitle = "Seznámení s našimi postavami "
 title = "Naše postavy"
+[menu.main]
+weight = 3
 
 +++
 ## Ashka Moonflower

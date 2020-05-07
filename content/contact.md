@@ -1,10 +1,9 @@
 ---
 title: Contact
+layout: contact
 menu:
   main:
-    name: Contact
-    weight: 5
-layout: contact
----
+    weight: 6
 
+---
 To get in touch fill the form below.

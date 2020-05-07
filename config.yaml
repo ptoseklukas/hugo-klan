@@ -21,8 +21,8 @@ disableKinds:
 - RSS
 outputs:
   home:
-    - HTML
-    - AMP
+  - HTML
+  - AMP
   page:
-    - HTML
-    - AMP
+  - HTML
+  - AMP
