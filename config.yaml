@@ -19,8 +19,6 @@ params:
       new_window: true
 disableKinds:
 - RSS
-- taxonomy
-- taxonomyTerm
 outputs:
   home:
     - HTML
