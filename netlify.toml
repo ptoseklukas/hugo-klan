@@ -1,20 +1,12 @@
 [build]
 publish = "public"
+command = "./stackbit-build.sh"
 
   [build.processing]
     skip_processing = false
-  [build.processing.css]
-    bundle = false
-    minify = true
-  [build.processing.js]
-    bundle = false
-    minify = true
-  [build.processing.html]
-    pretty_urls = false
   [build.processing.images]
     compress = true
 
   [build.environment]
-  HUGO_VERSION = "0.70"
+  HUGO_VERSION = "0.70.0"
 
-  command = "./stackbit-build.sh"
