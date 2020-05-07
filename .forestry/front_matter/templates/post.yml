@@ -17,6 +17,10 @@ fields:
   label: Date
   config:
     required: true
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 - type: file
   name: thumb_img_path
   label: Featured Image
